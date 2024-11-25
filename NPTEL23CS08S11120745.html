@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width=1.0" />
+    <title>The Joy of Computing Using Python</title>
+    <style>
+      .btn {
+        color: white;
+        background-color: #3070bf;
+        padding: 10px 20px;
+        border-radius: 8px;
+        text-decoration: none;
+        display: inline-block;
+        width: 156px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: none;
+      }
+      .btn a {
+        color: white;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nptel-content">
+      <button class="btn">
+        <a href="./NPTEL23CS08S11120745.pdf" target="_blank"
+          >Course Certificate</a
+        >
+      </button>
+    </div>
+    <script>
+      window.onbeforeunload = function () {
+        window.history.forward();
+      };
+      window.onload = (e) => {
+        const certPath = window.location.pathname;
+      };
+    </script>
+  </body>
+</html>
